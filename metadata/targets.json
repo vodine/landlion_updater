@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "fb8568143bca69c5b724706566686b82770867b9119aebe6b2082ea6d7520967",
-   "sig": "58c053727864f8162b6d6a4c021f8292667f3d269c15800efe45847223ff5e18fbb79d1721e806e6ff614646575412199716983abb8464c81e6b03e742b65908"
+   "sig": "8fbdf571372e38d0814a8a50a88626ad36e56af56235d828b5245453957eb43f172163718ca069f937f2afd6d6628bf2e6020adb5c313e64c7a4cb7fff1de70a"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2024-09-09T20:42:50Z",
+  "expires": "2024-09-09T20:58:56Z",
   "spec_version": "1.0.31",
   "targets": {
    "my_app-1.0.2.patch": {
@@ -72,6 +72,37 @@
     },
     "length": 53562247
    },
+   "my_app-1.0.4.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "26dfee5f64d16af3bbcf163c2eba443f54f3d748c9da6052476d84c1000c979e",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 53923840
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "427b19d26bc75ba141568b5567287a4bc8c90fb9456bc21f740841c8e69ef1c6"
+    },
+    "length": 3404
+   },
+   "my_app-1.0.4.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": {
+      "changes": [
+       "new feature x added",
+       "bug y fixed"
+      ]
+     }
+    },
+    "hashes": {
+     "sha256": "5f6175a3aad444cbcc4c4e68f9271664130582c6d675087c6ba0f8cb5bc40d80"
+    },
+    "length": 53562712
+   },
    "my_app-1.0.tar.gz": {
     "custom": {
      "tufup": {
@@ -121,6 +152,6 @@
     "length": 53560691
    }
   },
-  "version": 5
+  "version": 6
  }
 }
