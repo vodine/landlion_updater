@@ -1,1 +1,0 @@
-pyinstaller --onefile --noconsole --add-data "myapp/settings.py;myapp" --add-data "myapp/__init__.py;myapp" --add-data "untitled_ui.py;." --add-data "untitled.ui;." --add-data "myapp/root.json;myapp" --hidden-import "myapp" main.py
