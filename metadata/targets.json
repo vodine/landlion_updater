@@ -1,0 +1,64 @@
+{
+ "signatures": [
+  {
+   "keyid": "d3e144170096c205748e1513a3fdbfdf2b747a1490974f12ee4865999852b724",
+   "sig": "d60a00333c1203b67ce95fcf78a1290d390ff597fb765faa6163365828acebd195387c1397cee398e8e13e6e1e171ee2d12b716649f1e56e4e06484d6544ab01"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2024-09-09T19:09:46Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "my_app-1.0.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": {
+      "changes": [
+       "new feature x added",
+       "bug y fixed"
+      ]
+     }
+    },
+    "hashes": {
+     "sha256": "7cba0b576bd80237d4804c288c637a25116a9226842d08cb6f84deb3c31a3e5a"
+    },
+    "length": 17172389
+   },
+   "test_app-1.0.1.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "1549ed443f6b0d752892fd324adbd154b354d59b1f47521ff8f78e634a431300",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 53923840
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "dae22876218ef836b49cf27f215fa19b48cd20d5a9b78d5981825942df35d81b"
+    },
+    "length": 48150705
+   },
+   "test_app-1.0.1.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": {
+      "changes": [
+       "new feature x added",
+       "bug y fixed"
+      ]
+     }
+    },
+    "hashes": {
+     "sha256": "fa87d1fd870a17bdd39040a03f72d5e3c76773e9df2ed8cb9b7799936ebab79d"
+    },
+    "length": 53560691
+   }
+  },
+  "version": 3
+ }
+}
